@@ -1,0 +1,55 @@
+body
+{
+    background-image:url(./images/guitar.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wrap
+{
+    box-sizing: border-box;
+    padding:0;
+}
+.redo
+{
+    width: 400px;
+    margin:auto;
+    padding: 25px;
+
+
+}
+input[type=textarea]
+{
+    width:95%;
+    border-radius: 10px;
+    font-size:4rem;
+    padding:10px;
+    background-color:aqua;
+}
+input[type=button]
+{
+    width:97px;
+    padding:15px;
+    margin:auto;
+    border-radius:10px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: skyblue;
+    color:brown;
+    font-weight: bold;
+}
+#del
+{
+    width:100%;
+    padding:12px;
+    background-color: chartreuse;
+    font-weight: bold;
+}
+footer{
+    width:400px;
+    text-align: center;
+    margin-left: 450px;
+    color:black;
+    font-weight: bold;
+}
